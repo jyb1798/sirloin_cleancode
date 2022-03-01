@@ -6,4 +6,5 @@ export const RadioContainer = styled.div`
 
 export const RadioInput = styled.input`
   margin-top: 10px;
+  padding: 1rem;
 `;
