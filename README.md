@@ -144,10 +144,6 @@ const handleImage = (e) => {
 
 ✔️ 판매 기한 설정(제한 없음 default)
 
-### 상품 기본 정보
-
-![ProductInfo](https://user-images.githubusercontent.com/84373490/151648643-82e21a6e-09d7-4b80-a459-7f23b94902cd.gif)
-
 #### 카테고리
 
 ✔️ 체크박스 선택을 통해 해당 상품에 카테고리 지정
@@ -192,10 +188,6 @@ const handleImage = (e) => {
 
 ✔️ 해당 상품에 등록되어있는 옵션 재고의 총합 표시
 
-### 상품 옵션
-
-![Option2](https://user-images.githubusercontent.com/84373490/151648761-e41f0f76-e9eb-4220-b3ee-3b1c4ef45340.gif)
-
 #### 상품 옵션 등록
 
 ✔️ 옵션세트 및 옵션세트 내 옵션은 여러개 생성 가능
@@ -220,18 +212,6 @@ const handleImage = (e) => {
 
 ✔️ 과세: 해당 판매가의 10%가 부과세로 저장
 
-### 상품 이미지
-
-![ProductImg](https://user-images.githubusercontent.com/84373490/151648642-b98bdf53-472d-4649-a915-413332269b3b.gif)
-
-✔️ 이미지 TAP 후 이미지 업로드 시, 우측에 이미지 파일명과 X버튼이 함께 노출
-
-✔️ 추가 첨부 시, 최신업로드 순으로 추가
-
-### 상품 정보 고시
-
-![InfoNotice](https://user-images.githubusercontent.com/84373490/151648636-a96e0909-b7b9-44cf-ba24-cac9ed5f0a9c.gif)
-
 #### 상품 정보 고시 알림 설정
 
 ✔️ 정보고시 추가 시, 정보고시 생성 순서 숫자 표기
@@ -241,14 +221,6 @@ const handleImage = (e) => {
 ✔️ 타이틀 우측 내용 입력
 
 ✔️ 항목 추가를 통해 정보고시 항목 추가 가능
-
-#### 사용자 배송 출발일 지정
-
-![Delivery](https://user-images.githubusercontent.com/84373490/151648987-1e09b64b-b095-49d1-9b5d-fcfd939582ca.gif)
-
-✔️ 토글 버튼 On/Off
-
-✔️ 해당 영역 활성화 시 선주문 예약 배송 비활성화
 
 #### 방문 수령 지정
 
@@ -279,7 +251,5 @@ const handleImage = (e) => {
 ✔️ 필수값 미 입력시, 얼럿 제공
 
 ✔️ console창에 결과 출력
-
-<!-- </details>
 
 <br/> -->
