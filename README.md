@@ -276,8 +276,6 @@ const handleImage = (e) => {
 
 ### 저장하기 버튼
 
-![save](https://user-images.githubusercontent.com/84373490/151658437-c42ee70b-b365-4e7c-983a-a59e349a522f.jpg)
-
 ✔️ 필수값 미 입력시, 얼럿 제공
 
 ✔️ console창에 결과 출력
