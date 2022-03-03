@@ -9,7 +9,7 @@ export const NavContainer = styled.ul`
   position: fixed;
   height: 100%;
   overflow: auto;
-  border-right: 1px solid gray;
+  border-right: 1px solid none;
 `;
 
 export const NavMenu = styled.li`
@@ -18,15 +18,15 @@ export const NavMenu = styled.li`
   text-decoration: none;
   text-align: left;
   font-weight: 600;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
   &:first-child {
     padding: 12px 20px;
     color: rgb(53, 47, 110);
     font-size: 16px;
     height: 4em;
     box-sizing: border-box;
-    div{
-      margin-top:0.5em;
+    div {
+      margin-top: 0.5em;
     }
   }
   &:nth-child(n + 6):nth-child(-n + 7) {
