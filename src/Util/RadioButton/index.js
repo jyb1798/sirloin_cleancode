@@ -37,9 +37,6 @@ const RedioButton = (props) => {
             name="group2"
             value="제한 없음"
             checked
-            // checked={
-            //   clickedCondition.selectValue === "제한 없음" ? true : false
-            // }
             onChange={useCallback((e) => HandleValue(e))}
           />
           <label for="periodShow">
@@ -52,8 +49,6 @@ const RedioButton = (props) => {
             type="radio"
             name="group2"
             value="미판매"
-            // checked={value[1] === undefined ? true : value[1]}
-            // checked={clickedCondition.selectValue === "미판매" ? true : false}
             onChange={useCallback((e) => HandleValue(e))}
           />
           <label for="periodHide">
@@ -66,10 +61,6 @@ const RedioButton = (props) => {
             type="radio"
             name="group2"
             value="판매 기간 설정"
-            // checked={value[2] === undefined ? true : value[2]}
-            // checked={
-            //   clickedCondition.selectValue === "판매 기간 설정" ? true : false
-            // }
             onChange={useCallback((e) => HandleValue(e))}
           />
           <label for="periodSetting">
