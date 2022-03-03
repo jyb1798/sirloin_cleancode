@@ -1,5 +1,5 @@
-import react, { useContext } from "react";
-import * as Style from "./style";
+import React from "react";
+import * as S from "./style";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = (props) => {
@@ -22,20 +22,20 @@ const Nav = (props) => {
   ];
 
   return (
-    <Style.NavContainer>
+    <S.NavContainer>
       {menu.map((index, title) => (
-        <Style.NavMenu key={index.id}>
-          <Style.MenuDropDown>
+        <S.NavMenu key={index.id}>
+          <S.MenuDropDown>
             <div>{index.title}</div>
-            <Style.DropDownImage
+            <S.DropDownImage
               key={index.id}
               selected={index.id}
               icon={faChevronDown}
             />
-          </Style.MenuDropDown>
-        </Style.NavMenu>
+          </S.MenuDropDown>
+        </S.NavMenu>
       ))}
-    </Style.NavContainer>
+    </S.NavContainer>
   );
 };
 
