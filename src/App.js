@@ -1,32 +1,13 @@
 import styled from "styled-components";
 import Nav from "Component/Nav";
+import RadioButton from "Component/RadioButton";
 
 const App = () => {
   return (
     <div className="App">
       <Nav />
-      {/* <Main>
-        <PDdata>
-          <Topbar/>
-          <ProductSalesperiod />
-          <ProductInfo />
-          <PDOption/>
-          <ProductImage/>
-          <ProductInfoNotice/>
-          <ProductDelivery/>
-          <PDMileage/>
-          <ETC/>
-        </PDdata>
-     </Main> */}
+      <RadioButton />
     </div>
   );
 };
 export default App;
-
-const Main = styled.div`
-  margin-left: 10vw;
-  padding: 0.5em;
-  padding-top: 5vh;
-  border: 0.1em solid rgb(200, 200, 200);
-  border-radius: 5px;
-`;
