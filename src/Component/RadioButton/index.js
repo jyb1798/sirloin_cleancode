@@ -5,17 +5,17 @@ const RadioButton = () => {
   const [checkboxArray, setCheckboxArray] = useState([
     {
       id: "a123",
-      name: "test1",
-      checked: false,
+      name: "제한 없음",
+      checked: true,
     },
     {
       id: "b123",
-      name: "test2",
+      name: "미노출",
       checked: false,
     },
     {
       id: "c123",
-      name: "test3",
+      name: "노출 기간 설정",
       checked: false,
     },
   ]);
@@ -30,23 +30,26 @@ const RadioButton = () => {
         item.id === value.id ? { ...item, checeked: e.target.checked } : item
       )
     );
+    console.log(setCheckboxArray);
   }, []);
 
   return (
-    <div>
-      {checkboxArray.map((value) => (
-        <S.RadioContainer key={value.id} style={{ marginBottom: "10px" }}>
-          <label htmlFor={value.id}>{value.name}</label>
-          <S.RadioInput
-            id={value.id}
-            type="checkbox"
-            value={value.name}
-            onChange={(e) => handleChange(e, value)}
-          />
-          <span>{value.checked.toString()}</span>
-        </S.RadioContainer>
-      ))}
-    </div>
+    <form>
+      <div>
+        {checkboxArray.map((value) => (
+          <S.RadioContainer key={value.id} style={{ marginBottom: "10px" }}>
+            <label htmlFor={value.id}>{value.name}</label>
+            <S.RadioInput
+              id={value.id}
+              type="radio"
+              checked="checked"
+              value={value.name}
+              onChange={(e) => handleChange(e, value)}
+            />
+          </S.RadioContainer>
+        ))}
+      </div>
+    </form>
   );
 };
 
