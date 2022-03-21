@@ -6,7 +6,7 @@ export const PSheader = () => {
   return (
     <>
       <Style.ProductContainer>
-        <h3>노출 및 판매기간 설정</h3>
+        <h4>노출 및 판매기간 설정</h4>
       </Style.ProductContainer>
     </>
   );

@@ -3,12 +3,14 @@ import styled from "styled-components";
 export const ProductContainer = styled.span`
   font-size: 0.9em;
   font-weight: 900;
+  padding: 0px 5px;
 `;
 
 export const TitleBox = styled.div`
-  width: 20%;
-  border-right: 0.1em solid rgb(227, 227, 227);
-  border-top: 0.1em solid rgb(227, 227, 227);
+  width: 10%;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
 `;
 
 export const Input = styled.input.attrs({ type: "radio" })`
@@ -17,12 +19,14 @@ export const Input = styled.input.attrs({ type: "radio" })`
   }
 `;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  display: flex;
+`;
 
 export const RadioContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin: auto 170px;
+  margin: 10px -10px;
 `;
 
 export const CheckBoxWrapper = styled.div``;
