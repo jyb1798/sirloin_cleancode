@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProductDeliveryContainer = styled.div`
   .container {
@@ -48,4 +48,10 @@ export const ContentBox = styled.div`
   width: 80%;
   margin: auto 0;
   margin-left: 1em;
+`;
+
+export const Separator = styled.p`
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
 `;

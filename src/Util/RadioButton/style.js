@@ -12,11 +12,11 @@ export const RadioButton = styled.input.attrs(() => ({
   type: "radio",
 }))`
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: 0;
   border: 1px solid #ccc;
-  border-radius: 30px;
+  border-radius: 10px;
   appearance: none;
   &:checked {
     appearance: none;
@@ -24,10 +24,10 @@ export const RadioButton = styled.input.attrs(() => ({
   &:checked&::after {
     content: "";
     position: absolute;
-    left: 5px;
-    top: 5px;
-    width: 20px;
-    height: 20px;
+    left: 4px;
+    top: 9px;
+    width: 12px;
+    height: 12px;
     border-radius: 20px;
     background-color: #28205c;
   }

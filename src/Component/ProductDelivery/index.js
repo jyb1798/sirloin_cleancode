@@ -180,6 +180,7 @@ export const PDeliveryContent = () => {
                 setState={setStartPeriodState}
                 acitve={deliveryState.ispreOrder}
               />
+              <S.Separator>~</S.Separator>
               <DateTimePicker
                 state={endPeriodState}
                 setState={setEndPeriodState}

@@ -13,12 +13,6 @@ export const TitleBox = styled.div`
   padding: 0px 10px;
 `;
 
-export const Input = styled.input.attrs({ type: "radio" })`
-  width: 20px;
-  color: blue;
-  }
-`;
-
 export const Container = styled.div`
   display: flex;
 `;
