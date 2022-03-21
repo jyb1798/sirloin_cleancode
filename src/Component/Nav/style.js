@@ -9,7 +9,7 @@ export const NavContainer = styled.ul`
   position: fixed;
   height: 100%;
   overflow: auto;
-  border-right: 1px solid none;
+  border-right: 1px solid lightgray;
 `;
 
 export const NavMenu = styled.li`
