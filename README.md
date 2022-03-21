@@ -1,6 +1,6 @@
 # Context api로 전역상태를 관리한 어드민 페이지
 
-[GO DEMO🚀]
+[GO DEMO🚀](https://heroic-kitsune-8ad5f4.netlify.app/)
 
 ## 나의 기여
 
@@ -87,8 +87,8 @@ const handleImage = (e) => {
 
 ### 노출 및 판매기간 설정
 
-- 달력 및 시간 지정 컴포넌트 제공(MUI)
-- 제한 없음 default)
+- 달력 및 시간 지정 컴포넌트 작성하기
+- 제한 없음 default
 
 ### 카테고리
 
@@ -141,4 +141,3 @@ const handleImage = (e) => {
 ### 저장하기 버튼
 
 - 필수값 미 입력시, 얼럿 제공
-- console창에 결과 출력
