@@ -43,10 +43,6 @@ const PDdata = (props) => {
       state: ETC,
       setState: setETC,
     },
-    // PScontentBox: {
-    //   state: PScontentBox,
-    //   setState: setPScontentBox,
-    // },
     PspInfoState: {
       state: PspState,
       setState: setPspSate,

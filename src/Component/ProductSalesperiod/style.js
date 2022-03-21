@@ -5,18 +5,9 @@ export const ProductContainer = styled.span`
   font-weight: 900;
 `;
 
-export const ProductListContainer = styled.div`
-  display: flex;
-`;
-
 export const TitleBox = styled.div`
   width: 20%;
   border-right: 0.1em solid rgb(227, 227, 227);
-  border-top: 0.1em solid rgb(227, 227, 227);
-`;
-
-export const ContentsBox = styled.div`
-  width: 80%;
   border-top: 0.1em solid rgb(227, 227, 227);
 `;
 
@@ -26,21 +17,28 @@ export const Input = styled.input.attrs({ type: "radio" })`
   }
 `;
 
-export const Box = styled.div`
-  display: flex
-  flex-direction: column;
-  margin : 10px 20px;
-`;
+export const Container = styled.div``;
 
-export const Container = styled.div`
+export const RadioContainer = styled.div`
   display: flex;
+  flex-direction: column;
+  margin: auto 170px;
 `;
-
-export const SelectRadio = styled.div``;
-
-export const RadioContentBox = styled.div``;
 
 export const CheckBoxWrapper = styled.div``;
 
 export const CheckBox = styled.div``;
+
 export const CheckBoxLabel = styled.div``;
+
+export const DatePickerContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+export const Separator = styled.p`
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+`;

@@ -8,7 +8,7 @@ export const Bar = styled.div`
   position: fixed;
   top: 0;
   border-bottom: 0.1em solid rgb(227, 227, 227);
-  background-color: none;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   z-index: 99;
