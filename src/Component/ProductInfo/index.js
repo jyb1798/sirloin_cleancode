@@ -154,14 +154,13 @@ export const PIContent = (props) => {
     const newState = { ...state };
 
     if (productImgList.length > 0) {
-      const target = [...productImgList][0]
+      const target = [...productImgList][0];
       newState.product.imgs.unshift(target);
       setState(newState);
       //console.log(newState)
       setProductImgList([]);
     }
-  },[productImgList]);
-
+  }, [productImgList]);
 
   useEffect(() => {
     const idx = handleProductIdx();
@@ -291,7 +290,7 @@ export const PIContent = (props) => {
 
   const handleImgPop = (index) => {
     const newState = { ...state };
-    newState.product.imgs.splice(index,1);
+    newState.product.imgs.splice(index, 1);
     setState(newState);
   };
 
@@ -347,9 +346,14 @@ export const PIContent = (props) => {
       </S.Item>
       <S.Item>
         <S.Title>필터 태그</S.Title>
-        <S.InnerContainer className="filterBox"
-        onMouseEnter={()=>{setOpenFilterBox(true)}}
-        onMouseLeave={()=>{setOpenFilterBox(false)}}
+        <S.InnerContainer
+          className="filterBox"
+          onMouseEnter={() => {
+            setOpenFilterBox(true);
+          }}
+          onMouseLeave={() => {
+            setOpenFilterBox(false);
+          }}
         >
           <S.InputContainer>
             <input
@@ -407,7 +411,7 @@ export const PIContent = (props) => {
               <S.FilterTagBox>
                 {state.product.filterTag.length !== 0 && (
                   <p className="selectedFilterTag">지정된 필터태그</p>
-                ) }
+                )}
                 <S.ListContainer className="filterList">
                   {state.product.filterTag.map((item, index) => {
                     return (
@@ -490,7 +494,7 @@ export const PIContent = (props) => {
           <SelectImg imgList={productImgList} imgSetter={setProductImgList} />
           <S.ListContainer className="imgBox">
             {state.product.imgs.length > 0 &&
-              state.product.imgs.map((item,index) => {
+              state.product.imgs.map((item, index) => {
                 return (
                   <S.ListItem key={index}>
                     {item.name}{" "}
@@ -516,6 +520,5 @@ export const PIContent = (props) => {
     </S.ItemContainer>
   );
 };
-
 
 export default React.memo(ProductInfo);

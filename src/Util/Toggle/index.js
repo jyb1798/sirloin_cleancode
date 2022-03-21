@@ -1,15 +1,20 @@
-import * as S from 'Util/Toggle/style.js';
+import * as S from "Util/Toggle/style.js";
 
 const Toggle = (props) => {
-    const {state, setState} = props;
-    return(
+  const { state, setState } = props;
+  return (
     <>
-    <S.CheckBoxWrapper>
-        <S.CheckBox checked={state} id='checkbox' type='checkbox'/>
-        <S.CheckBoxLabel htmlFor='checkbox' onClick={() => {setState(!state)}}/>
-    </S.CheckBoxWrapper>
+      <S.CheckBoxWrapper>
+        <S.CheckBox checked={state} id="checkbox" type="checkbox" readOnly />
+        <S.CheckBoxLabel
+          htmlFor="checkbox"
+          onClick={() => {
+            setState(!state);
+          }}
+        />
+      </S.CheckBoxWrapper>
     </>
-    )
-}
+  );
+};
 
-export default Toggle
+export default Toggle;

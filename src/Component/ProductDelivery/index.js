@@ -35,7 +35,7 @@ const PDdesign = () => {
       <S.ContentBox>
         <ST.CheckBoxWrapper>
           <ST.CheckBox
-            checked={deliveryState.isDesignated}
+            defaultChecked={deliveryState.isDesignated}
             id="checkbox"
             type="checkbox"
           />
@@ -65,7 +65,7 @@ const PDpickup = () => {
       <S.ContentBox>
         <ST.CheckBoxWrapper>
           <ST.CheckBox
-            checked={deliveryState.isPickup}
+            defaultChecked={deliveryState.isPickup}
             id="checkbox"
             type="checkbox"
           />
@@ -160,7 +160,7 @@ export const PDeliveryContent = () => {
           <S.ContentBox className="preorder_content_box">
             <ST.CheckBoxWrapper className="bottom_margin">
               <ST.CheckBox
-                checked={deliveryState.ispreOrder}
+                defaultChecked={deliveryState.ispreOrder}
                 id="checkbox"
                 type="checkbox"
               />
