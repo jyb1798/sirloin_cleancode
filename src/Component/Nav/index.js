@@ -4,7 +4,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = (props) => {
   const menu = [
-    { id: 1, title: "Sir.LOIN" },
+    { id: 1, title: "MaM.LOIN" },
     { id: 2, title: "기본설정" },
     { id: 3, title: "회원" },
     { id: 4, title: "진열" },

@@ -6,7 +6,6 @@
 
 - Nav 폴더 : 사이드바
 - ProductSalesperiod 폴더 : 노출 및 판매기간 설정 Box
-  <img src="image/1.png">
 - Util 폴더 중 DateTime, RadioButton 폴더 : 달력 컴포넌트, RadioButton 컴포넌트
 
 ## 이슈 정리
