@@ -5,8 +5,12 @@
 ## 나의 기여
 
 - Nav 폴더 : 사이드바
-- ProductSalesperiod 폴더 : 노출 및 판매기간 설정 Box
+- ProductSalesperiod 폴더 : 노출 및 판매기간 설정 Box!
+- [mypart1](https://user-images.githubusercontent.com/64634495/159304943-507f4a6e-c74e-4606-989f-6946720b5a27.png)
+
 - Util 폴더 중 DateTime, RadioButton 폴더 : 달력 컴포넌트, RadioButton 컴포넌트
+- ![mypart2](https://user-images.githubusercontent.com/64634495/159304989-48c08490-c097-49d4-97fd-bc38b9068502.png)
+
 
 ## 이슈 정리
 
